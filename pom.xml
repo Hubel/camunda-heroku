@@ -56,7 +56,6 @@
 	</distributionManagement>
 	<build>
 		<finalName>camunda-webapp-tomcat-standalone-heroku</finalName>
-		<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -146,7 +145,6 @@
 					</configuration>
 				</plugin>
 			</plugins>
-		</pluginManagement>
 	</build>
 	<profiles>
 		<profile>
